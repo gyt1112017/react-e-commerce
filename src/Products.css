@@ -1,0 +1,52 @@
+.product-list {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-list h2 {
+    margin-bottom: 20px;
+}
+
+.product-list ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.product-list li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    align-items: center;
+}
+
+/* Assign specific widths to align columns */
+.product-list li span:first-child {
+    flex: 2;
+    /* For Product Name */
+    text-align: left;
+}
+
+.product-list li span:last-child {
+    flex: 1;
+    /* For Unit Price */
+    text-align: right;
+}
+
+
+.product-list button {
+    padding: 10px;
+    color: #fff;
+    background-color: #5b0881;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 20px; /* space between price and button */
+}
+
+.product-list button:hover {
+    background-color: #840cbb;
+}

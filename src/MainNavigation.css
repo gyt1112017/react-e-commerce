@@ -1,0 +1,29 @@
+.main-navigation {
+    background-color: #5b0881;
+    padding: 1rem;
+  }
+  
+  .main-navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .main-navigation a:hover {
+    text-decoration: underline;
+  }
+  
+  .disabled-link {
+    color: gray;
+    cursor: not-allowed;
+    text-decoration: none;
+  }
+  

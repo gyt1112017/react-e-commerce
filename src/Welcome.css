@@ -1,0 +1,59 @@
+.welcome-page {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .welcome-page h1 {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .welcome-page p {
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.2em;
+    animation: slideIn 1.5s ease-in-out;
+  }
+  
+  .product-link {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #5b0881;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .product-link:hover {
+    background-color: #840cbb;
+  }
+  
+  .basket-link {
+    color: #840cbb;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .basket-link:hover {
+    text-decoration: underline;
+  }
+  
+  .basket-link.disabled {
+    color: gray;
+    cursor: not-allowed;
+    text-decoration: none;
+  }
+  
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  

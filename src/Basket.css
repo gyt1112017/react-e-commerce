@@ -1,0 +1,133 @@
+/* Basket.css */
+
+.basket-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .basket-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .basket-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .basket-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    background-color: #fff;
+  }
+  
+  .basket-item span {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .basket-item button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #5b0881;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+  }
+  
+  .basket-item button:hover {
+    background-color: #840cbb;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .basket-summary {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  .basket-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .continue-shopping-button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #5b0881;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+  }
+  
+  .continue-shopping-button:hover {
+    background-color: #840cbb;
+  }
+
+  .pay-button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #5b0881;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+  }
+  .pay-button:hover {
+    background-color: #840cbb;
+  }
+  
+  .basket-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .basket-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .basket-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .quantity-controls {
+      margin-top: 10px;
+    }
+  }
